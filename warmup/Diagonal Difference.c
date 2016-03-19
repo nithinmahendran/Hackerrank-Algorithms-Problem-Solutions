@@ -1,3 +1,5 @@
+/*Given a square matrix of size N×N, calculate the absolute difference between the sums of its diagonals.*/
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
