@@ -1,3 +1,6 @@
+//Let's start simple. Can you complete the function solveMeFirst to return the sum of two integers passed as input parameters? 
+//You can pick your favorite programming language.
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -5,9 +8,7 @@
 
 
 int solveMeFirst(int a, int b) {
-    int c;
-    c=a+b;
-    return c;
+    return a+b;
   // Hint: Type return a+b; below
  
 }
