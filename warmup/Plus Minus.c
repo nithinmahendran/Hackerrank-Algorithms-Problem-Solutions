@@ -1,3 +1,5 @@
+/*Given an array of integers, calculate which fraction of the elements are positive, 
+negative, and zeroes, respectively. Print the decimal value of each fraction.*/
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
