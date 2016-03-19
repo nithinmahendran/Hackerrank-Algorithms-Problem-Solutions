@@ -1,3 +1,4 @@
+//You are given an array of integers of size N. Can you find the sum of the elements in the array?
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
