@@ -1,23 +1,17 @@
-//You are given an array of integers of size N. Can you find the sum of the elements in the array?
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
 
-int main() {
-    int a,b,d;
-    long long int c=0;
-    scanf("%d",&a);
-    int m[a];
-    for(b=0;b<a;b++)
-        {
-        scanf("%d",&m[b]);
-        }
-    for(b=0;b<a;b++)
-        {
-        c=c+m[b];
-        }
-   printf("%lli",c);
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+int main(){
+    int number_of_elements;
+    int i;
+    scanf("%d", &number_of_elements);
+    int array[number_of_elements];
+    int sum_of_array = 0;
+    
+    for(i = 0; i < number_of_elements; i++){
+       scanf("%d", &array[i]);
+       sum_of_array += array[i];
+    }
+    
+    printf("%d\n", sum_of_array);
     return 0;
 }
