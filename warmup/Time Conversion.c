@@ -9,7 +9,7 @@ Note: Midnight is 12:00:00 AM on a 12-hour clock and 00:00:00 on a 24-hour clock
 #include<string.h>
 int main() {
     int hh, mm, ss ;
-    char t12[3];
+    char t12[4];
     scanf("%d:%d:%d%s", &hh, &mm, &ss, t12) ;
 
     if (strcmp(t12,"PM")==0 && hh!=12) hh += 12 ;
